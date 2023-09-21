@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte-header: 'Passion One', cursive;
+    --font-main: 'Sriracha', cursive;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-family: var(--fonte-padrao);
+}
+
+header > h1 {
+    font-family: var(--fonte-header);
+    font-weight: normal;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.letra-grande {
+    font-size: 1.5em;
+}
+
+header > p {
+    color: rgba(206, 206, 206, 0.486);
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-family: var(--font-main);
+    
+}
+
+main > section > article > p {
+    font-size: 1.5em;
+    margin-left: 15px;
+}
+
+#texto1 {
+    padding: 90px 0px 90px 0px;
+    
+}
+
+#texto2 {
+    min-height: 335px;
+    height: 98vh;
+    background: black url('imagens/background001.jpg') center right no-repeat fixed;
+    background-size: cover;
+    padding-top: 110px;
+    margin-left: -15px;
+}
+
+#texto2 > p {
+    position: absolute;
+    color: white;
+    width: 300px;
+    backdrop-filter: brightness(0.5);
+    padding: 20px;
+}
+
+#texto3 {
+    padding: 90px 0px 90px 0px;
+}
+
+#texto4 {
+    min-height: 335px;
+    height: 98vh;
+    background: black url('imagens/background002.jpg') center right no-repeat fixed;
+    background-size: cover;
+    padding-top: 110px;
+    margin-left: -15px;
+}
+
+#texto4 > p {
+    position: absolute;
+    color: white;
+    backdrop-filter: brightness(0.5);
+    width: 300px;
+    padding: 20px;
+}
+
+#texto5 {
+    padding: 90px 0px 90px 0px;
+}
+
+footer {
+    font-family: var(--fonte-padrao);
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #3801fd;
+}
