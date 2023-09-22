@@ -11,3 +11,5 @@ O site de Poesias no estilo "Cordel Moderno" por Milton Duarte é uma plataforma
 - **Efeitos de Paralaxe**: Para tornar a experiência de leitura ainda mais envolvente, incorporamos efeitos de paralaxe em imagens, adicionando profundidade e interatividade às páginas.
 
 - **Design Responsivo**: O site é totalmente responsivo, adaptando-se perfeitamente a dispositivos móveis, tablets e computadores para que os leitores possam desfrutar das poesias em qualquer lugar.
+
+- Para acessar o site <a href="https://joaopedro-monteiro.github.io/Desafio-Site-Cordel/cordel.html">Clique aqui</a>
