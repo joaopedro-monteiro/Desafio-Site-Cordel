@@ -53,53 +53,36 @@ main {
 main > section > article > p {
     font-size: 1.5em;
     margin-left: 15px;
+    line-height: 2em;
 }
 
-#texto1 {
-    padding: 90px 0px 90px 0px;
-    
+.normal {
+    padding: 90px 0px 90px 0px;  
 }
 
-#texto2 {
+.imagem {
     min-height: 335px;
     height: 98vh;
-    background: black url('imagens/background001.jpg') center right no-repeat fixed;
+    background: black center right no-repeat fixed;
     background-size: cover;
     padding-top: 110px;
     margin-left: -15px;
 }
 
-#texto2 > p {
+#img01 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
+}
+
+.imagem > p {
     position: absolute;
     color: white;
     width: 300px;
     backdrop-filter: brightness(0.5);
     padding: 20px;
-}
-
-#texto3 {
-    padding: 90px 0px 90px 0px;
-}
-
-#texto4 {
-    min-height: 335px;
-    height: 98vh;
-    background: black url('imagens/background002.jpg') center right no-repeat fixed;
-    background-size: cover;
-    padding-top: 110px;
-    margin-left: -15px;
-}
-
-#texto4 > p {
-    position: absolute;
-    color: white;
-    backdrop-filter: brightness(0.5);
-    width: 300px;
-    padding: 20px;
-}
-
-#texto5 {
-    padding: 90px 0px 90px 0px;
 }
 
 footer {
